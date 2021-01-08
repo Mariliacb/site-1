@@ -1,0 +1,42 @@
+body {
+  margin: 0px;
+  background-color: #184d47;
+}
+
+#container {
+  background-color: #d6efc7;
+}
+
+#header {
+  position: fixed;
+  z-index: 1000;
+  top: 0px;
+  height: 100px;
+  width: 100%;
+  background-color: teal;
+}
+
+#content {
+  padding: 110px 0px 60px 0px;
+  background-color: thistle;
+}
+
+#footer {
+  position: fixed;
+  bottom: 0px;
+  height: 50px;
+  width: 100%;
+  background-color: violet;
+}
+
+h1 {
+  background-image: url("../imagens/bg.png");
+  background-attachment: fixed;
+  height: 50px;
+  width: 100%;
+}
+
+h1 span {
+  display: none;
+}
+
